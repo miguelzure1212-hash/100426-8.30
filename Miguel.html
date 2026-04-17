@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" >
 </head>
+
 <body>
     <h1>Minhas Notas 2026</h1>
     <hr>
-    <div  id="caixa1">
-     <h2> Escreva suas Notas   </h2>
-     <label for="">Titulo :</label> <br>
-     <input type="text" placeholder= "Digite o titulo sua nota" > <br> <br> <br>
-     <label for="">Conteúdo :</label> <br>
-     <textarea name="" id="" placeholder= "Escreva sua nota aqui :"></textarea> <br> <br>
-     <input type="submit">
+    <div class = "container">
+        <div id="caixa1">
+            <h2> Escreva suas Notas </h2>
+            <hr>
+            <form id="Formulario" action="">
+            <label for="" required>Titulo :</label> <br>
+            <input id = "Titulo" type="text" placeholder="Digite o titulo sua nota"> <br> <br> <br>
+            <label for="">Conteúdo :</label> <br>
+            <textarea name="" id="Conteudo" placeholder="Escreva sua nota aqui :" required></textarea> <br> <br>
+            <input type="submit">
+            </form>
+        </div> <br>
+        <div id="caixa2">
+            <h2> Suas Notas :
+            </h2>
+            <hr>
+        </div>
+         
     </div>
-</body>
+    <script src="NomedoArquivo.js"></script>
+</body > 
+
 </html>
